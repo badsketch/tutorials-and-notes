@@ -49,8 +49,8 @@ manage.py shell
 > If the user isn’t logged in, redirect to settings.LOGIN_URL, passing the current absolute path in the query string. Example: /accounts/login/?next=/polls/3/.
 > If the user is logged in, execute the view normally. The view code is free to assume the user is logged in.
 ---
-`pytest` - testing package
-`pytest-django`  - testing plugin specifically for django
-`pytest-cov` - test coverage
-`mixer` - mock data 
+`pytest` - testing package\
+`pytest-django`  - testing plugin specifically for django\
+`pytest-cov` - test coverage\
+`mixer` - mock data
 
