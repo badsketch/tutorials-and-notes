@@ -1,4 +1,4 @@
-# [Django - Unit Testing - Part 1](https://www.youtube.com/watch?v=TzCWadHwdSs)
+# [Django - Unit Testing - Part 2](https://www.youtube.com/watch?v=TzCWadHwdSs)
 
 
 ## **Running Tests**
