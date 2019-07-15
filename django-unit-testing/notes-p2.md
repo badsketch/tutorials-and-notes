@@ -31,9 +31,9 @@ class TestModels:
 `test_urls.py`
 - notice that product url created has a name of 'detail' and takes in a args\
 `path('<int:pk>', views.product_detail, name='detail')`
-- `reverse` grabs a url given a name, you could use `url('absolute\path)` but if a change on that happens in the future, all references need to be updated. instead 
+- `reverse` grabs a url given a name, you could use `url('absolute\path)` but if a change if url is changed later on in the future, all references need to be updated. instead 
 change it in the url file, and maintain the same `name` attribute.
-- `resolve` retrieves a given path\
+- `resolve` retrieves a given path
 
 ```
 class TestUrls:
